@@ -6,7 +6,7 @@
 -export([start_link/1]).
 -export([init/1]).
 
--define(CHILD(Mod,Args), {{Mod, Args, make_ref()}, {Mod, start_node, Args}, transient, 5000, worker, [Mod]}).
+-define(CHILD(Mod,Args), {{Mod, Args, make_ref()}, {Mod, start_node, Args}, temporary, 5000, worker, [Mod]}).
 
 
 -ifdef(TEST).
