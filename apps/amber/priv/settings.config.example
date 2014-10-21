@@ -34,7 +34,7 @@
 %%  {driver,
 %%    {roboclaw}
 %%  },
-%%  {2, 0},
+%%  {3, 0},
 %%  [
 %%    {cdriver, "../amber-cpp-drivers/stargazer-driver/bin/stargazer_driver"},
 %%    {config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.conf"},
@@ -87,5 +87,17 @@
 %%    {cdriver, "../amber-cpp-drivers/location-driver/bin/location_driver"},
 %%    {config_file, "../amber-cpp-drivers/location-driver/location.conf"},
 %%    {log_config_file, "../amber-cpp-drivers/location-driver/location.log.conf"}
+%%  ]
+%%}.
+
+%%{supervised_driver,
+%%  {driver,
+%%    {hitec}
+%%  },
+%%  {7, 0},
+%%  [
+%%    {cdriver, "../amber-cpp-drivers/hitec-driver/bin/hitec_driver"},
+%%    {config_file, "../amber-cpp-drivers/hitec-driver/hitec.conf"},
+%%    {log_config_file, "../amber-cpp-drivers/hitec-driver/hitec.log.conf"}
 %%  ]
 %%}.
