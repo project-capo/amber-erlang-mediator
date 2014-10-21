@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/kgadek/Amber.png?branch=master) "Master branch"](http://github.com/kgadek/Amber)
-
-[![Build Status](https://travis-ci.org/kgadek/Amber.png?branch=develop) "Develop branch"](http://github.com/kgadek/Amber)
 
                                                           bbbbbbbb                                                      
                    AAA                                    b::::::b            EEEEEEEEEEEEEEEEEEEEEE                    

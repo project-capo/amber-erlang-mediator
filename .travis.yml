@@ -4,15 +4,10 @@ otp_release:
   - R15B01
   - R15B02
   - R16B
+  - 17
 branches:
   only:
     - master
     - develop
     - /^hotfix-.*/
     - /^release-.*/
-notifications:
-  email:
-    recipients:
-      - kgadek+travisci@gmail.com
-    on_success: never
-    on_failure: always
