@@ -12,9 +12,9 @@
 %%  },
 %%  {1, 0},
 %%  [
-%%    {cdriver, "../amber-cpp-drivers/ninedof-driver/bin/ninedof_driver"},
-%%    {config_file, "../amber-cpp-drivers/ninedof-driver/ninedof.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/ninedof-driver/ninedof.log.conf"}
+%%    {cdriver, "/home/panda/amber/amber-cpp-drivers/ninedof-driver/bin/ninedof_driver"},
+%%    {config_file, "/home/panda/amber/amber-cpp-drivers/ninedof-driver/ninedof.conf"},
+%%    {log_config_file, "/home/panda/amber/amber-cpp-drivers/ninedof-driver/ninedof.log.conf"}
 %%  ]
 %%}.
 
@@ -24,21 +24,21 @@
 %%  },
 %%  {2, 0},
 %%  [
-%%    {cdriver, "../amber-cpp-drivers/roboclaw-driver/bin/roboclaw_driver"},
-%%    {config_file, "../amber-cpp-drivers/roboclaw-driver/roboclaw.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/roboclaw-driver/roboclaw.log.conf"}
+%%    {cdriver, "/home/panda/amber/amber-cpp-drivers/roboclaw-driver/bin/roboclaw_driver"},
+%%    {config_file, "/home/panda/amber/amber-cpp-drivers/roboclaw-driver/roboclaw.conf"},
+%%    {log_config_file, "/home/panda/amber/amber-cpp-drivers/roboclaw-driver/roboclaw.log.conf"}
 %%  ]
 %%}.
 
 %%{supervised_driver,
 %%  {driver,
-%%    {roboclaw}
+%%    {stargazer}
 %%  },
 %%  {3, 0},
 %%  [
-%%    {cdriver, "../amber-cpp-drivers/stargazer-driver/bin/stargazer_driver"},
-%%    {config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.log.conf"}
+%%    {cdriver, "/home/panda/amber/amber-cpp-drivers/stargazer-driver/bin/stargazer_driver"},
+%%    {config_file, "/home/panda/amber/amber-cpp-drivers/stargazer-driver/stargazer.conf"},
+%%    {log_config_file, "/home/panda/amber/amber-cpp-drivers/stargazer-driver/stargazer.log.conf"}
 %%  ]
 %%}.
 
@@ -48,7 +48,7 @@
 %%  },
 %%  {4, 0},
 %%  [
-%%    {cdriver, "../amber-python-drivers/bin/hokuyo-mock.sh"},
+%%    {cdriver, "/home/panda/amber/amber-python-drivers/bin/hokuyo-mock.sh"},
 %%    {config_file, ""},
 %%    {log_config_file, ""}
 %%  ]
@@ -60,7 +60,7 @@
 %%  },
 %%  {4, 0},
 %%  [
-%%    {cdriver, "../amber-python-drivers/bin/hokuyo.sh"},
+%%    {cdriver, "/home/panda/amber/amber-python-drivers/bin/hokuyo.sh"},
 %%    {config_file, ""},
 %%    {log_config_file, ""}
 %%  ]
@@ -72,7 +72,7 @@
   },
   {5, 0},
   [
-    {cdriver, "../amber-python-drivers/bin/dummy.sh"},
+    {cdriver, "/home/panda/amber/amber-python-drivers/bin/dummy.sh"},
     {config_file, ""},
     {log_config_file, ""}
   ]
@@ -84,9 +84,9 @@
 %%  },
 %%  {6, 0},
 %%  [
-%%    {cdriver, "../amber-cpp-drivers/location-driver/bin/location_driver"},
-%%    {config_file, "../amber-cpp-drivers/location-driver/location.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/location-driver/location.log.conf"}
+%%    {cdriver, "/home/panda/amber/amber-cpp-drivers/location-driver/bin/location_driver"},
+%%    {config_file, "/home/panda/amber/amber-cpp-drivers/location-driver/location.conf"},
+%%    {log_config_file, "/home/panda/amber/amber-cpp-drivers/location-driver/location.log.conf"}
 %%  ]
 %%}.
 
@@ -96,8 +96,8 @@
 %%  },
 %%  {7, 0},
 %%  [
-%%    {cdriver, "../amber-cpp-drivers/hitec-driver/bin/hitec_driver"},
-%%    {config_file, "../amber-cpp-drivers/hitec-driver/hitec.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/hitec-driver/hitec.log.conf"}
+%%    {cdriver, "/home/panda/amber/amber-cpp-drivers/hitec-driver/bin/hitec_driver"},
+%%    {config_file, "/home/panda/amber/amber-cpp-drivers/hitec-driver/hitec.conf"},
+%%    {log_config_file, "/home/panda/amber/amber-cpp-drivers/hitec-driver/hitec.log.conf"}
 %%  ]
 %%}.
