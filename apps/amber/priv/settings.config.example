@@ -101,3 +101,15 @@
 %%    {log_config_file, "../amber-cpp-drivers/hitec-driver/hitec.log.conf"}
 %%  ]
 %%}.
+
+%%{supervised_driver,
+%%  {driver,
+%%    {drive_to_point}
+%%  },
+%%  {8, 0},
+%%  [
+%%    {cdriver, "../amber-python-drivers/bin/drive-to-point.sh"},
+%%    {config_file, ""},
+%%    {log_config_file, ""}
+%%  ]
+%%}.
