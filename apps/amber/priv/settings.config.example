@@ -44,18 +44,6 @@
 
 %%{supervised_driver,
 %%  {driver,
-%%    {hokuyo_mock_py}
-%%  },
-%%  {4, 0},
-%%  [
-%%    {cdriver, "../amber-python-drivers/bin/hokuyo-mock.sh"},
-%%    {config_file, ""},
-%%    {log_config_file, ""}
-%%  ]
-%%}.
-
-%%{supervised_driver,
-%%  {driver,
 %%    {hokuyo_py}
 %%  },
 %%  {4, 0},
