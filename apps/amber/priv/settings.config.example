@@ -44,7 +44,7 @@
 
 %%{supervised_driver,
 %%  {driver,
-%%    {hokuyo_py}
+%%    {hokuyo}
 %%  },
 %%  {4, 0},
 %%  [
@@ -56,7 +56,7 @@
 
 {supervised_driver,
   {driver,
-    {dummy_py}
+    {dummy}
   },
   {5, 0},
   [
