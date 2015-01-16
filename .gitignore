@@ -15,3 +15,5 @@ log/
 *.txt
 *.tmp
 log-*/
+.idea/
+*.iml
