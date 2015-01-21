@@ -22,7 +22,7 @@ init({MID, Conf}) ->
   {config_file, ConfigFile} = lists:keyfind(config_file, 1, Conf),
   {log_config_file, LogConfigFile} = lists:keyfind(log_config_file, 1, Conf),
   process_flag(trap_exit, true),
-  Port = open_port({spawn_executable, CDriver}, [{packet, 2}, {args, [ConfigFile, LogConfigFile]}]),
+  Port = open_port({spawn_executable, CDriver}, [{packet, 2}, {args, [ConfigFile, LogConfigFile]}, use_stdio]),
   {ok, #state{port = Port, conf = Conf, mid = MID}}.
 
 handle_cast({received, #routing_msg{hdr = Hdr, msg = Msg}}, #state{port = Port} = State) ->
@@ -38,7 +38,7 @@ handle_info({Port, {data, HdrPB}}, #state{port = Port, mid = MID} = State) ->
       Hdr = drivermsg_pb:decode_driverhdr(list_to_binary(HdrPB)),
       router:send_msg({?MODULE, MID}, #routing_msg{hdr = Hdr, msg = list_to_binary(Msg)})
   after 100 ->
-    erlang:error("Po headerze nie odebrano treści wiadomości")
+    error_logger:error_msg("Po headerze nie odebrano treści wiadomości")
   end,
   {noreply, State}.
 
