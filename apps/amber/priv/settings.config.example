@@ -101,3 +101,15 @@
 %%    {log_config_file, ""}
 %%  ]
 %%}.
+
+%%{supervised_driver,
+%%  {driver,
+%%    {collision_avoidance}
+%%  },
+%%  {9, 0},
+%%  [
+%%    {cdriver, "../amber-python-drivers/bin/collision-avoidance.sh"},
+%%    {config_file, ""},
+%%    {log_config_file, ""}
+%%  ]
+%%}.
