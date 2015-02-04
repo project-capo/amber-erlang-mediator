@@ -6,53 +6,13 @@
   []
 }.
 
-%%{supervised_driver,
-%%  {driver,
-%%    {ninedof}
-%%  },
-%%  {1, 0},
-%%  [
-%%    {cdriver, "../amber-cpp-drivers/ninedof-driver/bin/ninedof_driver"},
-%%    {config_file, "../amber-cpp-drivers/ninedof-driver/ninedof.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/ninedof-driver/ninedof.log.conf"}
-%%  ]
-%%}.
+%%{supervised_driver, {driver, {ninedof} }, {1, 0}, [ {cdriver, "../amber-cpp-drivers/ninedof-driver/bin/ninedof_driver"}, {config_file, "../amber-cpp-drivers/ninedof-driver/ninedof.conf"}, {log_config_file, "../amber-cpp-drivers/ninedof-driver/ninedof.log.conf"} ] }.
 
-%%{supervised_driver,
-%%  {driver,
-%%    {roboclaw}
-%%  },
-%%  {2, 0},
-%%  [
-%%    {cdriver, "../amber-cpp-drivers/roboclaw-driver/bin/roboclaw_driver"},
-%%    {config_file, "../amber-cpp-drivers/roboclaw-driver/roboclaw.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/roboclaw-driver/roboclaw.log.conf"}
-%%  ]
-%%}.
+%%{supervised_driver, {driver, {roboclaw} }, {2, 0}, [ {cdriver, "../amber-cpp-drivers/roboclaw-driver/bin/roboclaw_driver"}, {config_file, "../amber-cpp-drivers/roboclaw-driver/roboclaw.conf"}, {log_config_file, "../amber-cpp-drivers/roboclaw-driver/roboclaw.log.conf"} ] }.
 
-%%{supervised_driver,
-%%  {driver,
-%%    {stargazer}
-%%  },
-%%  {3, 0},
-%%  [
-%%    {cdriver, "../amber-cpp-drivers/stargazer-driver/bin/stargazer_driver"},
-%%    {config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.log.conf"}
-%%  ]
-%%}.
+%%{supervised_driver, {driver, {stargazer} }, {3, 0}, [ {cdriver, "../amber-cpp-drivers/stargazer-driver/bin/stargazer_driver"}, {config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.conf"}, {log_config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.log.conf"} ] }.
 
-%%{supervised_driver,
-%%  {driver,
-%%    {hokuyo}
-%%  },
-%%  {4, 0},
-%%  [
-%%    {cdriver, "../amber-python-drivers/bin/hokuyo.sh"},
-%%    {config_file, ""},
-%%    {log_config_file, ""}
-%%  ]
-%%}.
+%%{supervised_driver, {driver, {hokuyo} }, {4, 0}, [ {cdriver, "../amber-python-drivers/bin/hokuyo.sh"}, {config_file, ""}, {log_config_file, ""} ] }.
 
 {supervised_driver,
   {driver,
@@ -66,50 +26,10 @@
   ]
 }.
 
-%%{supervised_driver,
-%%  {driver,
-%%    {location}
-%%  },
-%%  {6, 0},
-%%  [
-%%    {cdriver, "../amber-cpp-drivers/location-driver/bin/location_driver"},
-%%    {config_file, "../amber-cpp-drivers/location-driver/location.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/location-driver/location.log.conf"}
-%%  ]
-%%}.
+%%{supervised_driver, {driver, {location} }, {6, 0}, [ {cdriver, "../amber-cpp-drivers/location-driver/bin/location_driver"}, {config_file, "../amber-cpp-drivers/location-driver/location.conf"}, {log_config_file, "../amber-cpp-drivers/location-driver/location.log.conf"} ] }.
 
-%%{supervised_driver,
-%%  {driver,
-%%    {hitec}
-%%  },
-%%  {7, 0},
-%%  [
-%%    {cdriver, "../amber-cpp-drivers/hitec-driver/bin/hitec_driver"},
-%%    {config_file, "../amber-cpp-drivers/hitec-driver/hitec.conf"},
-%%    {log_config_file, "../amber-cpp-drivers/hitec-driver/hitec.log.conf"}
-%%  ]
-%%}.
+%%{supervised_driver, {driver, {hitec} }, {7, 0}, [ {cdriver, "../amber-cpp-drivers/hitec-driver/bin/hitec_driver"}, {config_file, "../amber-cpp-drivers/hitec-driver/hitec.conf"}, {log_config_file, "../amber-cpp-drivers/hitec-driver/hitec.log.conf"} ] }.
 
-%%{supervised_driver,
-%%  {driver,
-%%    {drive_to_point}
-%%  },
-%%  {8, 0},
-%%  [
-%%    {cdriver, "../amber-python-drivers/bin/drive-to-point.sh"},
-%%    {config_file, ""},
-%%    {log_config_file, ""}
-%%  ]
-%%}.
+%%{supervised_driver, {driver, {drive_to_point} }, {8, 0}, [ {cdriver, "../amber-python-drivers/bin/drive-to-point.sh"}, {config_file, ""}, {log_config_file, ""} ] }.
 
-%%{supervised_driver,
-%%  {driver,
-%%    {collision_avoidance}
-%%  },
-%%  {9, 0},
-%%  [
-%%    {cdriver, "../amber-python-drivers/bin/collision-avoidance.sh"},
-%%    {config_file, ""},
-%%    {log_config_file, ""}
-%%  ]
-%%}.
+%%{supervised_driver, {driver, {collision_avoidance} }, {9, 0}, [ {cdriver, "../amber-python-drivers/bin/collision-avoidance.sh"}, {config_file, ""}, {log_config_file, ""} ] }.
