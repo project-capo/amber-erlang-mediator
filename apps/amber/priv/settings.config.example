@@ -10,6 +10,10 @@
 
 %%{supervised_driver, {driver, {roboclaw} }, {2, 0}, [ {cdriver, "../amber-cpp-drivers/roboclaw-driver/bin/roboclaw_driver"}, {config_file, "../amber-cpp-drivers/roboclaw-driver/roboclaw.conf"}, {log_config_file, "../amber-cpp-drivers/roboclaw-driver/roboclaw.log.conf"} ] }.
 
+%%{supervised_driver, {driver, {roboclaw} }, {2, 0}, [ {cdriver, "../amber-python-drivers/bin/roboclaw.sh"}, {config_file, ""}, {log_config_file, ""} ] }.
+
+%%{supervised_driver, {driver, {roboclaw} }, {2, 0}, [ {cdriver, "../amber-python-drivers/bin/drive-support.sh"}, {config_file, ""}, {log_config_file, ""} ] }.
+
 %%{supervised_driver, {driver, {stargazer} }, {3, 0}, [ {cdriver, "../amber-cpp-drivers/stargazer-driver/bin/stargazer_driver"}, {config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.conf"}, {log_config_file, "../amber-cpp-drivers/stargazer-driver/stargazer.log.conf"} ] }.
 
 %%{supervised_driver, {driver, {hokuyo} }, {4, 0}, [ {cdriver, "../amber-python-drivers/bin/hokuyo.sh"}, {config_file, ""}, {log_config_file, ""} ] }.
