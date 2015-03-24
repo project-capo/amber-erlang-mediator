@@ -1,5 +1,5 @@
-amber-erlang-mediatora
-======================
+amber-erlang-mediator
+=====================
 
 It is a project made by Konrad Gądek and Michał Konarski. Project contains:
 
