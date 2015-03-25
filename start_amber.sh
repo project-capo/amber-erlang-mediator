@@ -7,7 +7,8 @@ export __dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 mv ${__dir}/log/ ${__dir}/log-$(date +%s)/
 mkdir ${__dir}/log/
 
-
+export RUN_ERL_LOG_MAXSIZE=10000000
+export RUN_ERL_LOG_GENERATIONS=2
 
 cd ${__dir}
 $(run_erl -daemon ${__dir}/pipes/ ${__dir}/log/ \
