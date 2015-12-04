@@ -1,5 +1,5 @@
 REBAR = ./rebar
-
+GIT_SSL_NO_VERIFY = 1
 
 .PHONY: all clean allclean test dialyzer deps gen
 
